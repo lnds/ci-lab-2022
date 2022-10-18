@@ -17,5 +17,6 @@ public class AppTest
         assertEquals("es un triangulo equilatero", App.triangulo(1, 1, 1));
         assertEquals("es un triangulo isoceles", App.triangulo(2, 2, 3));
         assertEquals("es un triangulo equilatero", App.triangulo(2, 2, 2));
+        assertEquals("es un triangulo escaleno", App.triangulo(3, 4, 5));
     }
 }
