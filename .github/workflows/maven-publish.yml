@@ -35,4 +35,5 @@ jobs:
         name: Package
         path: staging
 
- 
+    - name: Publish to GitHub Packages Apache Maven
+      run: mvn deploy -s .m2/settings.xml
